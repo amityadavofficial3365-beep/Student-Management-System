@@ -1,0 +1,24 @@
+# ----- .NET backend -----
+backend/bin/
+backend/obj/
+*.user
+*.suo
+.vs/
+appsettings.Development.json
+appsettings.Production.json
+*.pfx
+
+# ----- React frontend -----
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# ----- Secrets / misc -----
+.env
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
